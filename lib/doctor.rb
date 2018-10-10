@@ -7,4 +7,7 @@ class Doctor
   end
   
   def self.all
+    @@all.each do |doc|
+    end
+  end
 end
