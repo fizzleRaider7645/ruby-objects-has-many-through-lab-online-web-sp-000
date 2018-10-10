@@ -1,7 +1,7 @@
 require_relative 'patient'
 require_relative 'doctor'
 
-class Apointment
+class Appointment
   attr_reader :patient, :doctor
   def initialize(patient, doctor, date)
     @patient = patient
