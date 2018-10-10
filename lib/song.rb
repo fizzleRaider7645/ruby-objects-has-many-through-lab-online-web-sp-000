@@ -17,4 +17,6 @@ class Song
       song
     end
   end
+  
+  def songs
 end
