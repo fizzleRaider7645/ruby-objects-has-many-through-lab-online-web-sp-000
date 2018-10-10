@@ -33,7 +33,7 @@ class Artist
     # end
     # genres
     
-    songs.each do |song|
+    songs.map do |song|
       song
       binding.pry
     end
