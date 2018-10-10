@@ -34,8 +34,8 @@ class Artist
     # genres
     
     songs.map do |song|
-      song.gere
-      binding.pry
+      song.genre
+      # binding.pry
     end
   end
 end
