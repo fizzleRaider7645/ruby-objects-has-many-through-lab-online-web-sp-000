@@ -25,6 +25,7 @@ class Artist
   end
   
   def genres
-    Genres.all.map do |genre|
+    Genre.all.map do |genre|
+    end
   end
 end
