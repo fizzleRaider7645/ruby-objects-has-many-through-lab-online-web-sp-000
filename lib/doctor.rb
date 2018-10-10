@@ -24,6 +24,7 @@ class Doctor
   
   def patients
     appointments.each do |app|
+      app.patient
     end
   end
 end
