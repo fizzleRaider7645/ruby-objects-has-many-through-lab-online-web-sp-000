@@ -15,6 +15,7 @@ class Genre
   end
   
   def songs
-    Song.all.find
+    Song.all.find do |song|
+    end
   end
 end
