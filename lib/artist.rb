@@ -32,7 +32,7 @@ class Artist
     #   genres << song.genre if song.artist.name == self.name
     # end
     # genres
-    binding.pry
+    
     songs.each do |song|
       song.genre
     end
