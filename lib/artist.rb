@@ -26,6 +26,7 @@ class Artist
   
   def genres
     genres = []
-    Song.all
+    Song.all.each do |song|
+    end
   end
 end
