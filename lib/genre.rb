@@ -13,4 +13,7 @@ class Genre
       genre
     end
   end
+  
+  def songs
+  end
 end
