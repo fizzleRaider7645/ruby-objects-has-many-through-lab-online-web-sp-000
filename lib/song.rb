@@ -21,4 +21,4 @@ end
 
 new_song = Song.new("blah", Artist.new("frank"), Genre.new("punk"))
 
-p new_songs.artist.name
+p new_song.artist.name
