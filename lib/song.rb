@@ -18,7 +18,3 @@ class Song
     end
   end
 end
-
-new_song = Song.new("blah", Artist.new("frank"), Genre.new("punk"))
-
-p new_song.artist.name
