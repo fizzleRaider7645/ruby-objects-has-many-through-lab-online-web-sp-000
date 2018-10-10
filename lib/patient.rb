@@ -8,6 +8,7 @@ class Patient
   
   def self.all
     @@all.each do |patient|
+      patient
     end
   end
 end
