@@ -1,4 +1,5 @@
-require_relative ''
+require_relative 'patient'
+require_relative 'doctor'
 
 class Apointment
   attr_reader :patient, :doctor
