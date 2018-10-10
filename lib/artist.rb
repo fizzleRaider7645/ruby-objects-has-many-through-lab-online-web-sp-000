@@ -30,7 +30,7 @@ class Artist
     #   genres << song.genre if song.artist.name == self.name
     # end
     # genres
-    binding pry
+    binding.pry
     songs
   end
 end
