@@ -18,3 +18,6 @@ class Song
     end
   end
 end
+
+new_song = Song.new("blah", Artist.new("yeee"),Genre.new("punk"))
+new_song.genre
