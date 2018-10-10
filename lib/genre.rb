@@ -9,4 +9,6 @@ class Genre
   end
   
   def self.all
+    @@all.each do |genre|
+  end
 end
