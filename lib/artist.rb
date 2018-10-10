@@ -25,6 +25,7 @@ class Artist
   end
   
   def genres
-    
+    genres = []
+    Song.all
   end
 end
