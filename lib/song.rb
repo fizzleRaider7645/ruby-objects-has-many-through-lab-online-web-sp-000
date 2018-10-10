@@ -14,7 +14,7 @@ class Song
   
   def self.all
     @@all.each do |song|
-      song
+      song.genre == self
     end
   end
 end
