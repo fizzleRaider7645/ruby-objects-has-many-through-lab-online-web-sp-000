@@ -17,4 +17,6 @@ class Patient
       app.patient == self
     end
   end
+  
+  def new_appointment
 end
