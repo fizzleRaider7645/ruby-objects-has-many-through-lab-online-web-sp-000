@@ -27,7 +27,7 @@ class Artist
   def genres
     genres = []
     Song.all.each do |song|
-      genres << song.genre if song
+      genres << song.genre
     end
   end
 end
