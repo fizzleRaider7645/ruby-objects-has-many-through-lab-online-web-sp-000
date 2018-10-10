@@ -33,6 +33,6 @@ class Artist
     # end
     # genres
     binding.pry
-    songs
+    songs.
   end
 end
