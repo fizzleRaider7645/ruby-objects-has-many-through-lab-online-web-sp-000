@@ -16,7 +16,7 @@ class Genre
   
   def songs
     Song.all.find do |song|
-      song.genre.name = self.name
+      song.genre.name == self.name
     end
   end
 end
