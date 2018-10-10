@@ -23,5 +23,6 @@ class Doctor
   end
   
   def patients
+    appointments
   end
 end
