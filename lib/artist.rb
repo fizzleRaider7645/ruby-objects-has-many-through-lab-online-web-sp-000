@@ -19,7 +19,7 @@ class Artist
   end
   
   def songs
-    @songs.each do |song|
+    Songs.all.each do |song|
       song
     end
   end
