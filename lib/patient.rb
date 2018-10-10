@@ -11,4 +11,7 @@ class Patient
       patient
     end
   end
+  
+  def appointments
+  end
 end
