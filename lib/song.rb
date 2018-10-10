@@ -20,4 +20,4 @@ class Song
 end
 
 new_song = Song.new("blah", Artist.new("yeee"),Genre.new("punk"))
-new_song.genre
+p new_song.genre
