@@ -15,5 +15,6 @@ class Genre
   end
   
   def songs
+    Song.all.find
   end
 end
