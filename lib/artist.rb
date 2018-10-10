@@ -35,6 +35,7 @@ class Artist
     
     songs.each do |song|
       song
+      binding.pry
     end
   end
 end
