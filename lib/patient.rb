@@ -14,6 +14,7 @@ class Patient
   
   def appointments
     Appointments.select do |app|
+      app
     end
   end
 end
