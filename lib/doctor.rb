@@ -23,7 +23,7 @@ class Doctor
   end
   
   def patients
-    appointments.each do |app|
+    appointments.map do |app|
       app.patient
     end
   end
