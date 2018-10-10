@@ -1,4 +1,5 @@
 class Apointment
-  def initialize(patient)
+  def initialize(patient, doctor)
+    @patient = patient
   end
 end
