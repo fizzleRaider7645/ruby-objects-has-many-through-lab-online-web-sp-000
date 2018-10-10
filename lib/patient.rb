@@ -7,4 +7,7 @@ class Patient
   end
   
   def self.all
+    @@all.each do |patient|
+    end
+  end
 end
