@@ -1,1 +1,2 @@
-class Apointmnet
+class Apointment
+end
