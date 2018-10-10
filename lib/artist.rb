@@ -23,4 +23,6 @@ class Artist
       song.artist.name == self.name
     end
   end
+  
+  def genres
 end
