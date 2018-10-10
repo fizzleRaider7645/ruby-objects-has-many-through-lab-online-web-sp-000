@@ -29,6 +29,6 @@ class Artist
     Song.all.each do |song|
       genres << song.genre if song.artist.name == self.name
     end
-    genres
+    genres.uniq
   end
 end
