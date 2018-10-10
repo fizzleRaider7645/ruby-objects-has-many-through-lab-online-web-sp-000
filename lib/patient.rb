@@ -13,5 +13,6 @@ class Patient
   end
   
   def appointments
+    Appointments.map
   end
 end
