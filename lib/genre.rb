@@ -15,6 +15,6 @@ class Genre
   end
   
   def songs
-    Song.all.map
+    Song.all.select
   end
 end
