@@ -1,3 +1,4 @@
 class Apointment
-  def initialize
+  def initialize(patient)
+  end
 end
