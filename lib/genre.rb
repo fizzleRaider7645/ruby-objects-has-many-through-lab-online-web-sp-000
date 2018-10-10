@@ -15,8 +15,5 @@ class Genre
   end
   
   def songs
-    Song.all.find do |song|
-      song.genre.name == self.name
-    end
   end
 end
