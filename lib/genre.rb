@@ -10,6 +10,7 @@ class Genre
   
   def self.all
     @@all.each do |genre|
+      genre
     end
   end
 end
