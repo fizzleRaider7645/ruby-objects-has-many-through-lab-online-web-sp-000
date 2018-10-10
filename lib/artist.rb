@@ -33,6 +33,7 @@ class Artist
     # end
     # genres
     binding.pry
-    songs.
+    songs.each do |song|
+    end
   end
 end
